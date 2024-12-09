@@ -4,6 +4,7 @@ import React from "react";
 import CardPopularProducts from "../(components)/CardPopularProducts";
 import CardSalesSummary from "../(components)/CardSalesSummary";
 import CardPurchaseSummary from "../(components)/CardPurchaseSummary";
+import CardExpenseSummary from "../(components)/CardExpenseSummary";
 
 const Dashboard = () => {
   return (
@@ -11,7 +12,7 @@ const Dashboard = () => {
       <CardPopularProducts />
       <CardSalesSummary />
       <CardPurchaseSummary />
-      <div className="row-span-3 bg-gray-500" />
+      <CardExpenseSummary />
       <div className="md:row-span-1 xl:row-span-2 bg-gray-500" />
       <div className="md:row-span-1 xl:row-span-2 bg-gray-500" />
       <div className="md:row-span-1 xl:row-span-2 bg-gray-500" />
